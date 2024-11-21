@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/MDstyle.css">
+    <link rel="stylesheet" href="css/LGstyle.css">
+    <link rel="stylesheet" href="css/XLstyle.css">
+    <title>Carros disponíveis</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-hamburguer" onclick="toggleMenu()">
+            <img src="imgs/Aborgue.png" alt="Ícone de menu hambúrguer"> <!-- Símbolo do hambúrguer -->
+        </div>
+        <div class="imgLogo">
+            <a href="index.html"><img src="imgs/EcoDrive.png" alt="Logo do projeto. Está escrito EcoDrive em itálico"></a>
+        </div>
+        <div class="barra-opcoes" id="barraOpcoes">
+            <ul>
+                <li><a href="index.html" class="menu_item">Página Inicial</a></li>
+                <li><a href="servicos.html" class="menu_item">Serviços</a></li>
+                <li><a href="carros.html" class="menu_item">Carros disponíveis</a></li>
+                <li><a href="orcamento.html" class="menu_item">Solicite orçamento</a></li>
+                <li><a href="faleconosco.html" class="menu_item">Fale conosco</a></li>
+                <li><a href="integrantes.html" class="menu_item">Integrantes</a></li>
+            </ul>
+        </div>
+        <div class="btnFaleConosco">
+            <a href="faleconosco.html"><button type="button" class="btnFaleConosco">Fale conosco</button></a>
+        </div>
+    </header>
+
+    <main id="wrapper">
+        <div class="carros">
+            <div class="carro" id="dolphin-mini">
+                <h3>BYD Dolphin Mini</h3>
+                <div class="imgCarros">
+                    <img src="imgs/dolphin-mini.png" alt="BYD Dolphin Mini na cor branca, um carro elétrico compacto">
+                </div>
+                <p>Autonomia WLTP - 340km</p>
+                <p>6 air-bags e Freio à disco nas 4 rodas</p>
+                <p>Primeiro elétrico elegível à PCD</p>
+                <p>Carregamento Fácil</p>
+            </div>
+
+            <div class="carro" id="dolphin">
+                <h3>BYD Dolphin</h3>
+                <div class="imgCarros">
+                    <img src="imgs/dolphin.png" alt="BYD Dolphin na cor azul, um hatch elétrico moderno">
+                </div>
+                <p>Autonomia - Até 400 km</p>
+                <p>Carga Rápida - 30% a 80% em 30 minutos.</p>
+                <p>e-Platform 3.0</p>
+                <p>Inspirada nos animais marinhos e oceano</p>
+            </div>
+
+            <div class="carro" id="dolphin-plus">
+                <h3>BYD Dolphin Plus</h3>
+                <div class="imgCarros">
+                    <img src="imgs/dolphin-platform-a-header.png" alt="BYD Dolphin Plus na cor vermelha, versão premium do modelo">
+                </div>
+                <p>Autonomia - 427 km</p>
+                <p>Teto solar panorâmico</p>
+                <p>e-Platform 3.0</p>
+                <p>Console Central Flutuante</p>
+            </div>
+        </div>
+        <div class="carros">
+
+            <div class="carro" id="seres3">
+                <h3>Seres 3 BEV</h3>
+                <div class="imgCarros">
+                    <img src="imgs/seres3.webp" alt="Seres 3 BEV na cor prata, um SUV elétrico compacto">
+                </div>
+                <p>Autonomia PBEV - 206 km</p>
+                <p>Carregamento - 20% a 80% em 38 minutos</p>
+                <p>Mobilidade Urbana Sustentável</p>
+                <p>Capacidade da Bateria - 53 kWh</p>
+            </div>
+
+            <div class="carro" id="ora-03">
+                <h3>ORA 03 SKIN</h3>
+                <div class="imgCarros">
+                    <img src="imgs/ora-03.png" alt="ORA 03 SKIN na cor branca, um hatch elétrico com design futurista">
+                </div>
+                <p>Autonomia - 232 km</p>
+                <p>Carregamento Rápido - 30% a 80% em 30 minutos.</p>
+                <p>Wallbox Grátis</p>
+                <p>Porta-malas: 228 / 858 litros</p>
+            </div>
+
+            <div class="carro" id="peugeot-e-2008">
+                <h3>Peugeot E-2008</h3>
+                <div class="imgCarros">
+                    <img src="imgs/Peugeot-e-2008.png" alt="Peugeot e-2008 na cor cinza, um SUV elétrico com design sofisticado">
+                </div>
+                <p>Autonomia - 261 km</p>
+                <p>30 minutos para recarga rápida completa.</p>
+                <p>54 kWh de capacidade de bateria</p>
+                <p>Estilo, economia e sustentabilidade</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Locadora de Carros Elétricos.</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

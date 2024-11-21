@@ -1,0 +1,435 @@
+@media (min-width: 1400px) {
+
+    /* Geral */
+    header {
+        padding: 15px 2%;
+    }
+
+    a .btnFaleConosco {
+        padding: 8px 25px;
+    }
+
+    #wrapper {
+        justify-content: space-around;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    h1 {
+        font-size: 58px;
+        line-height: 64px;
+    }
+
+    h2 {
+        font-size: 46px;
+        line-height: 34px;
+    }
+
+    h3 {
+        font-size: 42px;
+        line-height: 45px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 9%;
+    }
+
+    /* Header */
+    .imagensHeader {
+        display: flex;
+        gap: 30px;
+    }
+
+    .imgLogo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+
+    .imgLogo {
+        margin-right: 70%;
+    }
+
+    /*Menu Hamburguer*/
+    .barra-opcoes {
+        width: 30%;
+        left: -30%;
+    }
+
+    .menu-hamburguer {
+        margin-top: 8px;
+    }
+
+    .menu-hamburguer img {
+        width: 27px;
+    }
+
+    /* Homepage */
+    .imgCarro img {
+        min-width: 510px;
+        width: 95%;
+    }
+
+    #section1 {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        gap: 60px;
+        margin-bottom: 0;
+    }
+
+    #txtInicial {
+        margin-top: 60px;
+        width: 50%;
+    }
+
+    #section2 {
+        margin-top: 265px;
+    }
+
+    #creditoCarbono {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        gap: 49px;
+    }
+
+    #txtCreditoCarbono {
+        margin-top: 50px;
+        width: 534px;
+    }
+
+    .imgCarroVerde img {
+        margin-top: 5%;
+        max-width: 640px;
+    }
+
+    #beneficios {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    .beneficio {
+        margin-top: 69px;
+        width: 370px;
+    }
+
+    .beneficio h3 {
+        border-bottom: 3px solid #c1c1c1c9;
+    }
+
+    #section3 {
+        margin-top: 250px;
+    }
+
+    #section3 h1 {
+        margin-bottom: 0;
+    }
+
+    #section3 p {
+        font-size: 24px;
+        letter-spacing: .0042em;
+    }
+
+    /* Fale Conosco */
+    h4 {
+        font-size: 42px;
+        line-height: 56px;
+    }
+
+    /*Integrantes*/
+    h5 {
+        font-size: 40px;
+    }
+
+    .integrantes {
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+    }
+
+    .integrante {
+        margin-top: 20px;
+    }
+
+    .integrante p {
+        font-size: 20px;
+    }
+
+    .txtIntegrante {
+        margin-top: 30px;
+    }
+
+    .imgIntegrante img {
+        width: 300px;
+    }
+
+    /* Carros */
+    .carros {
+        margin-top: 150px;
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        gap: 120px;
+    }
+
+    .imgCarros img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .carro {
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 50px;
+        border-radius: 8px;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .carro:hover {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #seres3 img {
+        width: 90%;
+    }
+
+    /* Servicos */
+    #section-hero {
+        margin-top: 120px;
+    }
+
+    .servicos {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .beneficiosServicos {
+        margin-top: 0;
+    }
+
+    .diferencial-item {
+        margin-top: 20px;
+    }
+
+    .servicos h1 {
+        font-size: 38px;
+    }
+
+    .servicos h2 {
+        font-size: 30px;
+    }
+
+    .servicos h3 {
+        font-size: 24px;
+    }
+
+    .servicos p {
+        font-size: 20px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px 0;
+    }
+
+    #integrantePage,
+    #mensagemEnviada {
+        position: fixed;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    header {
+        padding: 15px 2%;
+    }
+
+    a .btnFaleConosco {
+        padding: 8px 25px;
+    }
+
+    #wrapper {
+        margin-top: 80px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+    h4 {
+        font-size: 42px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    /* Header */
+    .imagensHeader {
+        display: flex;
+        gap: 30px;
+    }
+
+    .imgLogo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+
+    .imgLogo {
+        margin-right: 65%;
+    }
+
+    /* Menu Hamburguer*/
+    .barra-opcoes {
+        width: 30%;
+        left: -30%;
+    }
+
+    .menu-hamburguer {
+        margin-top: 8px;
+    }
+
+    .menu-hamburguer img {
+        width: 27px;
+    }
+
+    /* Homepage */
+    .imgCarro img,
+    .imgCarroVerde img {
+        min-width: 480px;
+    }
+
+    #section1 {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        gap: 60px;
+        margin-bottom: 0;
+    }
+
+    #txtInicial {
+        margin-top: 35px;
+    }
+
+    #section2 {
+        margin-top: 265px;
+    }
+
+    #creditoCarbono {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    #txtCreditoCarbono {
+        margin-top: 50px;
+    }
+
+    #beneficios {
+        display: flex;
+        justify-content: space-around;
+        gap: 45px;
+    }
+
+    .beneficio {
+        width: 370px;
+        margin-top: 49px;
+    }
+
+    /* Integrantes */
+    h5 {
+        font-size: 40px;
+    }
+
+    .integrantes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .integrante {
+        margin-top: 10px;
+    }
+
+    /* Carros */
+    .carros {
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        gap: 60px;
+    }
+
+    .imgCarros img {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .carro {
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 50px;
+        border-radius: 8px;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .carro:hover {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #seres3 img {
+        width: 90%;
+    }
+
+    /* Servicos */
+    #section-hero {
+        margin-top: 120px;
+    }
+
+    .servicos {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .beneficiosServicos {
+        margin-top: 0;
+    }
+
+    .diferencial-item {
+        margin-top: 20px;
+    }
+
+    .servicos h1 {
+        font-size: 34px;
+    }
+
+    .servicos h3 {
+        font-size: 20px;
+    }
+
+    .servicos p {
+        font-size: 17px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px 0;
+    }
+
+    #integrantePage,
+    #mensagemEnviada {
+        position: fixed;
+    }
+}
